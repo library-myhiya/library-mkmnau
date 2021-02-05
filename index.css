@@ -157,7 +157,7 @@ p {
 }
 
 .banner {
-    background: linear-gradient(rgba(38, 37, 28, 0.5), rgba(82, 80, 70, 0.3)), url(../banner-books.jpg) center;
+    background: linear-gradient(rgba(38, 37, 28, 0.5), rgba(82, 80, 70, 0.3)), url("banner-books.jpg") center;
     background-size: cover;
     min-height: 600px;
     display: flex;
