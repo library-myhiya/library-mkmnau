@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наукова бібліотека Мигійського коледжу МНАУ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/book.png">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <nav class="navbar sticky-top navbar-dark bg-light">
+            <div class="topnav">
+                <div id="menu">
+                    <a href="#">На допомогу студенту</a>
+                    <a href="#">Нові надходження</a>
+                    <a href="#">Циклові комісії</a>
+                    <a href="#">Статистичні дані</a>
+                    <a href="http://mkmnau.in.ua" class="button nav-button">Сайт коледжу</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="showBurgerMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+        <div class="banner">
+            <h1>
+                <span class="banner-name">НАУКОВА БІБЛІОТЕКА МИГІЙСЬКОГО КОЛЕДЖУ</span>
+                <span class="banner-name">МИКОЛАЇВСЬКОГО НАЦІОНАЛЬНОГО АГРАРНОГО УНІВЕРСИТЕТУ</span>
+            </h1>
+            <div class="clock"></div>
+        </div>
+        <section class="promotions" id="promotions">
+            <h2>Новини</h2>
+            <div class="promotions-wrapper">
+                <article class="promotion-category">
+                    <p class="date">12 грудня 2020</p>
+                    <img src="img/vil.jpg" alt="">
+                    <h3>ВИСТАВКА “ПРО ВІЛ/СНІД: ВКОТРЕ І ВІДВЕРТО”</h3>
+                    <p>1 грудня 2019 року відмічається Всесвітній День боротьби зі СНІДом. Його мета – привернути увагу громадськості і нагадати суспільству, що ВІЛ/СНІД є однією з самих глобальних проблем людства. За даними Всесвітньої організації охорони здоров’я у світі з ВІЛ-інфекцією живе близько 37 мільйонів людей, серед яких 19,5 мільйонів отримують антиретровірусне лікування. Україна залишається регіоном з високим рівнем…</p>
+                    <a href="#" class="button">Читати далі</a>
+                </article>
+                <article class="promotion-category">
+                    <p class="date">12 грудня 2020</p>
+                    <img src="img/1933.jpg" alt="">
+                    <h3>“У ПАМ’ЯТЬ ПРО СКОРБОТНИЙ 1933”</h3>
+                    <p>День пам’яті жертв голодоморів відзначається щорічно в четверту суботу листопада на підставі президентських указів 1998 та 2007 років. У ХХ сторіччі українці пережили три голодомори: 1921-1923, 1932-1933 і голод 1946-1947 років. Утім, наймасштабнішим був Голодомор 1932-1933 років – геноцид українського народу, здійснюваний тоталітарним комуністичним режимом СРСР. З 25 по 28 листопада у вестибюлі головного корпусу…</p>
+                    <a href="#" class="button">Читати далі</a>
+                </article>
+            </div>
+       </section>
+           
+        </section>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1333.9318028322346!2d30.960272052227243!3d48.035660995875794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDAyJzA4LjQiTiAzMMKwNTcnNDAuNSJF!5e0!3m2!1suk!2spl!4v1611227068402!5m2!1suk!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+            </iframe>
+        </div>
+        
+    </main>
+    <footer>
+        <nav>
+            <h3>Адреса</h3>
+                <p>Миколаївська обл., Первомайський р-н, с.Мигія, вул. Й.Скаржинського, буд.16</p>
+                <h3>Години роботи</h3>
+                <p>Понеділок—П’ятниця: 9:00–17:00</p>
+                <p>Субота & Неділя: Вихідний</p>
+            <p class="footer">© Наукова бібліотека Мигійського коледжу Миколаївського національного аграрного університету</p>
+        </nav>
+    </footer> 
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/burger-menu.js"></script>
+    <script async src="js/shop/alert-window.js"></script>
+    <script defer src="js/shop/products-service.js"></script>
+    <script defer src="js/shop/cart.js"></script>
+    <script defer src="js/shop/product-list.js"></script>    
+    <script defer src="js/shop/index.js"></script>
+</body>
+</html>
