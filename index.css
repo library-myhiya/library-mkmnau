@@ -173,6 +173,13 @@ p {
     padding: 0 3rem;
 }
 
+.banner-cyk {
+    background: linear-gradient(rgba(38, 37, 28, 0.5), rgba(82, 80, 70, 0.3)), center;
+    background-image: url("banner-books.jpg");
+    background-size: cover;
+    min-height: 300px;
+}
+
 .banner h1 {
     font-size: 30px;
     font-weight: 600;
