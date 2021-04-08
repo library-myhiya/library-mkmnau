@@ -64,8 +64,8 @@ a.button {
     text-decoration: none;
 }
 
-.cyklovi {
-   text-decoration: none;
+a {
+   color: #FF0000;
 }
 
 .col-5, .col-3, .col-2 {
