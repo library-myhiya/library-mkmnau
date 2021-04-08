@@ -64,6 +64,10 @@ a.button {
     text-decoration: none;
 }
 
+.cyklovi {
+    color: black;
+}
+
 .col-5, .col-3, .col-2 {
     margin-top: 12px;
     margin-bottom: 0;
