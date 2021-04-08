@@ -65,7 +65,7 @@ a.button {
 }
 
 a {
-   color: #FF0000;
+   color: var(--brand-color);
 }
 
 .col-5, .col-3, .col-2 {
