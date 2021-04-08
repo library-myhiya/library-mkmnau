@@ -66,6 +66,7 @@ a.button {
 
 a {
    color: var(--brand-color);
+   text-decoration: none;
 }
 
 .col-5, .col-3, .col-2 {
