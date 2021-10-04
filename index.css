@@ -38,6 +38,10 @@ body {
     color: var(--second-brand-color);
 }
 
+#two {
+    display: inline-block;
+}
+
 .logo:hover {
     text-decoration: none;
     color: var(--brand-color);
