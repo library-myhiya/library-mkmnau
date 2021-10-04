@@ -40,6 +40,11 @@ body {
 
 #two {
     display: inline-block;
+    max-width: 50%;
+}
+
+#pr {
+    display: flex;
 }
 
 .logo:hover {
@@ -242,7 +247,6 @@ img {
 
 .promotion-category {
     margin: 10px;
-    display: flex;
 }
 
 .promotions-bracelets {
