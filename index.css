@@ -242,6 +242,7 @@ img {
 
 .promotion-category {
     margin: 10px;
+    display: flex;
 }
 
 .promotions-bracelets {
